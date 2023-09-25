@@ -1,0 +1,57 @@
+<!-- 
+  Strings.html by Luis Lagos
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+    <title>Zip Code</title>
+
+    <!-- Link to external stylesheet for styles -->
+    <link rel="stylesheet" href="Zip Code.css">
+
+    <!-- Link to external font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Heading for the page -->
+  <h1>Zip Code</h1>
+    <!-- Main content container -->
+    <div class="content-container">
+      
+      
+        
+        <!-- New user input form -->
+        <div class="input-form">
+            <!-- Text input for first name -->
+            <input type="text" id="firstName" placeholder="First Name">
+            
+            <!-- Text input for last name -->
+            <input type="text" id="lastName" placeholder="Last Name">
+            
+            <!-- Text input for zip code -->
+            <input type="number" id="zipCode" placeholder="Zip Code">
+            
+            <!-- Button to validate inputs and reveal message -->
+            <button onclick="validateInputs()">Reveal Secret</button>
+        </div>
+        
+        <!-- Display container for the secret message or errors -->
+        <div id="messageContainer"></div>
+    </div>
+      <!-- image -->
+      <img src="town.png" alt="Creative Image">
+
+
+    <!--  JavaScript file inclusion -->
+    <script src="Zip Code.js"></script>
+</body>
+
+</html>
